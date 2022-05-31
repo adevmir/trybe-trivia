@@ -60,7 +60,7 @@ class Ranking extends React.Component {
     const { rankingList } = this.state;
     console.log(rankingList);
     return (
-      <div>
+      <div id="ranking">
         <h1 data-testid="ranking-title">Ranking</h1>
         <button
           type="button"

@@ -39,7 +39,7 @@ class Login extends React.Component {
   render() {
     const { name, gravatarEmail } = this.state;
     return (
-      <form>
+      <form id="login-form">
         <input
           placeholder="nome"
           type="text"

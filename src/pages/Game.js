@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import getAsk from '../services/getAsk';
 import Header from '../component/Header';
 import { updateScore } from '../redux/actions';
-import '../App.css';
 
 class Game extends React.Component {
   constructor() {
@@ -170,7 +169,7 @@ class Game extends React.Component {
       disabledQuestion,
     } = this.state;
     return (
-      <div>
+      <div id="game">
         <Header />
         <p>{ timer }</p>
         { correctAnswersIndex.length !== 0 && (
